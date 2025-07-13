@@ -1,0 +1,1810 @@
+.
+├── hypr
+│   └── .config
+│       └── hypr
+│           ├── hypridle.conf
+│           ├── hyprland.conf
+│           ├── hyprland.conf.save
+│           ├── hyprlock.conf
+│           └── hyprpaper.conf
+├── kitty
+│   └── .config
+│       └── kitty
+│           ├── kitty.conf
+│           └── kitty.conf.save
+├── map.txt
+├── wallpapers
+│   └── .config
+│       └── wallpapers
+│           ├── wall0.png
+│           └── wall1.png
+├── waybar
+│   └── .config
+│       └── waybar
+│           ├── config.jsonc
+│           ├── scripts
+│           │   └── acpi-get-tempeture.sh
+│           └── style.css
+└── zsh
+    ├── .oh-my-zsh
+    │   ├── cache
+    │   │   ├── completions
+    │   │   ├── .gitkeep
+    │   │   ├── grep-alias
+    │   │   ├── _home_bpatch_IdeaProjects_project_database_build_gradle
+    │   │   └── .zsh-update
+    │   ├── CODE_OF_CONDUCT.md
+    │   ├── CONTRIBUTING.md
+    │   ├── custom
+    │   │   ├── example.zsh
+    │   │   ├── plugins
+    │   │   │   ├── example
+    │   │   │   │   └── example.plugin.zsh
+    │   │   │   ├── zsh-autosuggestions
+    │   │   │   │   ├── CHANGELOG.md
+    │   │   │   │   ├── DESCRIPTION
+    │   │   │   │   ├── Dockerfile
+    │   │   │   │   ├── .editorconfig
+    │   │   │   │   ├── Gemfile
+    │   │   │   │   ├── Gemfile.lock
+    │   │   │   │   ├── .git
+    │   │   │   │   │   ├── config
+    │   │   │   │   │   ├── description
+    │   │   │   │   │   ├── HEAD
+    │   │   │   │   │   ├── hooks
+    │   │   │   │   │   │   ├── applypatch-msg.sample
+    │   │   │   │   │   │   ├── commit-msg.sample
+    │   │   │   │   │   │   ├── fsmonitor-watchman.sample
+    │   │   │   │   │   │   ├── post-update.sample
+    │   │   │   │   │   │   ├── pre-applypatch.sample
+    │   │   │   │   │   │   ├── pre-commit.sample
+    │   │   │   │   │   │   ├── pre-merge-commit.sample
+    │   │   │   │   │   │   ├── prepare-commit-msg.sample
+    │   │   │   │   │   │   ├── pre-push.sample
+    │   │   │   │   │   │   ├── pre-rebase.sample
+    │   │   │   │   │   │   ├── pre-receive.sample
+    │   │   │   │   │   │   ├── push-to-checkout.sample
+    │   │   │   │   │   │   ├── sendemail-validate.sample
+    │   │   │   │   │   │   └── update.sample
+    │   │   │   │   │   ├── index
+    │   │   │   │   │   ├── info
+    │   │   │   │   │   │   └── exclude
+    │   │   │   │   │   ├── logs
+    │   │   │   │   │   │   ├── HEAD
+    │   │   │   │   │   │   └── refs
+    │   │   │   │   │   │       ├── heads
+    │   │   │   │   │   │       │   └── master
+    │   │   │   │   │   │       └── remotes
+    │   │   │   │   │   │           └── origin
+    │   │   │   │   │   │               └── HEAD
+    │   │   │   │   │   ├── objects
+    │   │   │   │   │   │   ├── info
+    │   │   │   │   │   │   └── pack
+    │   │   │   │   │   │       ├── pack-d333725d3c9bd8c7813a0d1a8ce0c644cc40ec7a.idx
+    │   │   │   │   │   │       ├── pack-d333725d3c9bd8c7813a0d1a8ce0c644cc40ec7a.pack
+    │   │   │   │   │   │       └── pack-d333725d3c9bd8c7813a0d1a8ce0c644cc40ec7a.rev
+    │   │   │   │   │   ├── packed-refs
+    │   │   │   │   │   └── refs
+    │   │   │   │   │       ├── heads
+    │   │   │   │   │       │   └── master
+    │   │   │   │   │       ├── remotes
+    │   │   │   │   │       │   └── origin
+    │   │   │   │   │       │       └── HEAD
+    │   │   │   │   │       └── tags
+    │   │   │   │   ├── .github
+    │   │   │   │   │   ├── ISSUE_TEMPLATE
+    │   │   │   │   │   │   ├── bug-report.md
+    │   │   │   │   │   │   └── feature_request.md
+    │   │   │   │   │   └── workflows
+    │   │   │   │   │       └── integration.yml
+    │   │   │   │   ├── .gitignore
+    │   │   │   │   ├── INSTALL.md
+    │   │   │   │   ├── install_test_zsh.sh
+    │   │   │   │   ├── LICENSE
+    │   │   │   │   ├── Makefile
+    │   │   │   │   ├── README.md
+    │   │   │   │   ├── .rspec
+    │   │   │   │   ├── .rubocop.yml
+    │   │   │   │   ├── .ruby-version
+    │   │   │   │   ├── spec
+    │   │   │   │   │   ├── async_spec.rb
+    │   │   │   │   │   ├── integrations
+    │   │   │   │   │   │   ├── auto_cd_spec.rb
+    │   │   │   │   │   │   ├── bracketed_paste_magic_spec.rb
+    │   │   │   │   │   │   ├── client_zpty_spec.rb
+    │   │   │   │   │   │   ├── glob_subst_spec.rb
+    │   │   │   │   │   │   ├── rebound_bracket_spec.rb
+    │   │   │   │   │   │   ├── vi_mode_spec.rb
+    │   │   │   │   │   │   ├── wrapped_widget_spec.rb
+    │   │   │   │   │   │   └── zle_input_stack_spec.rb
+    │   │   │   │   │   ├── kill_ring_spec.rb
+    │   │   │   │   │   ├── line_init_spec.rb
+    │   │   │   │   │   ├── multi_line_spec.rb
+    │   │   │   │   │   ├── options
+    │   │   │   │   │   │   ├── buffer_max_size_spec.rb
+    │   │   │   │   │   │   ├── highlight_style_spec.rb
+    │   │   │   │   │   │   ├── original_widget_prefix_spec.rb
+    │   │   │   │   │   │   ├── strategy_spec.rb
+    │   │   │   │   │   │   └── widget_lists_spec.rb
+    │   │   │   │   │   ├── spec_helper.rb
+    │   │   │   │   │   ├── strategies
+    │   │   │   │   │   │   ├── completion_spec.rb
+    │   │   │   │   │   │   ├── history_spec.rb
+    │   │   │   │   │   │   ├── match_prev_cmd_spec.rb
+    │   │   │   │   │   │   └── special_characters_helper.rb
+    │   │   │   │   │   ├── terminal_session.rb
+    │   │   │   │   │   └── widgets
+    │   │   │   │   │       ├── disable_spec.rb
+    │   │   │   │   │       ├── enable_spec.rb
+    │   │   │   │   │       ├── fetch_spec.rb
+    │   │   │   │   │       └── toggle_spec.rb
+    │   │   │   │   ├── src
+    │   │   │   │   │   ├── async.zsh
+    │   │   │   │   │   ├── bind.zsh
+    │   │   │   │   │   ├── config.zsh
+    │   │   │   │   │   ├── fetch.zsh
+    │   │   │   │   │   ├── highlight.zsh
+    │   │   │   │   │   ├── start.zsh
+    │   │   │   │   │   ├── strategies
+    │   │   │   │   │   │   ├── completion.zsh
+    │   │   │   │   │   │   ├── history.zsh
+    │   │   │   │   │   │   └── match_prev_cmd.zsh
+    │   │   │   │   │   ├── util.zsh
+    │   │   │   │   │   └── widgets.zsh
+    │   │   │   │   ├── URL
+    │   │   │   │   ├── VERSION
+    │   │   │   │   ├── zsh-autosuggestions.plugin.zsh
+    │   │   │   │   ├── zsh-autosuggestions.zsh
+    │   │   │   │   └── ZSH_VERSIONS
+    │   │   │   └── zsh-syntax-highlighting -> /usr/share/zsh/plugins/zsh-syntax-highlighting
+    │   │   └── themes
+    │   │       ├── example.zsh-theme
+    │   │       └── powerlevel10k
+    │   │           ├── config
+    │   │           │   ├── p10k-classic.zsh
+    │   │           │   ├── p10k-lean-8colors.zsh
+    │   │           │   ├── p10k-lean.zsh
+    │   │           │   ├── p10k-pure.zsh
+    │   │           │   ├── p10k-rainbow.zsh
+    │   │           │   └── p10k-robbyrussell.zsh
+    │   │           ├── font.md
+    │   │           ├── .git
+    │   │           │   ├── config
+    │   │           │   ├── description
+    │   │           │   ├── HEAD
+    │   │           │   ├── hooks
+    │   │           │   │   ├── applypatch-msg.sample
+    │   │           │   │   ├── commit-msg.sample
+    │   │           │   │   ├── fsmonitor-watchman.sample
+    │   │           │   │   ├── post-update.sample
+    │   │           │   │   ├── pre-applypatch.sample
+    │   │           │   │   ├── pre-commit.sample
+    │   │           │   │   ├── pre-merge-commit.sample
+    │   │           │   │   ├── prepare-commit-msg.sample
+    │   │           │   │   ├── pre-push.sample
+    │   │           │   │   ├── pre-rebase.sample
+    │   │           │   │   ├── pre-receive.sample
+    │   │           │   │   ├── push-to-checkout.sample
+    │   │           │   │   ├── sendemail-validate.sample
+    │   │           │   │   └── update.sample
+    │   │           │   ├── index
+    │   │           │   ├── info
+    │   │           │   │   └── exclude
+    │   │           │   ├── logs
+    │   │           │   │   ├── HEAD
+    │   │           │   │   └── refs
+    │   │           │   │       ├── heads
+    │   │           │   │       │   └── master
+    │   │           │   │       └── remotes
+    │   │           │   │           └── origin
+    │   │           │   │               └── HEAD
+    │   │           │   ├── objects
+    │   │           │   │   ├── info
+    │   │           │   │   └── pack
+    │   │           │   │       ├── pack-d6c362fa0ca119d9abb09dc4a20ed9a3fb62133e.idx
+    │   │           │   │       ├── pack-d6c362fa0ca119d9abb09dc4a20ed9a3fb62133e.pack
+    │   │           │   │       └── pack-d6c362fa0ca119d9abb09dc4a20ed9a3fb62133e.rev
+    │   │           │   ├── packed-refs
+    │   │           │   ├── refs
+    │   │           │   │   ├── heads
+    │   │           │   │   │   └── master
+    │   │           │   │   ├── remotes
+    │   │           │   │   │   └── origin
+    │   │           │   │   │       └── HEAD
+    │   │           │   │   └── tags
+    │   │           │   └── shallow
+    │   │           ├── .gitattributes
+    │   │           ├── .gitignore
+    │   │           ├── gitstatus
+    │   │           │   ├── build
+    │   │           │   ├── build.info
+    │   │           │   ├── .clang-format
+    │   │           │   ├── deps
+    │   │           │   │   └── .gitkeep
+    │   │           │   ├── docs
+    │   │           │   │   └── listdir.md
+    │   │           │   ├── .gitattributes
+    │   │           │   ├── .gitignore
+    │   │           │   ├── gitstatus.plugin.sh
+    │   │           │   ├── gitstatus.plugin.zsh
+    │   │           │   ├── gitstatus.plugin.zsh.zwc
+    │   │           │   ├── gitstatus.prompt.sh
+    │   │           │   ├── gitstatus.prompt.zsh
+    │   │           │   ├── install
+    │   │           │   ├── install.info
+    │   │           │   ├── install.zwc
+    │   │           │   ├── LICENSE
+    │   │           │   ├── Makefile
+    │   │           │   ├── mbuild
+    │   │           │   ├── README.md
+    │   │           │   ├── src
+    │   │           │   │   ├── algorithm.h
+    │   │           │   │   ├── arena.cc
+    │   │           │   │   ├── arena.h
+    │   │           │   │   ├── bits.h
+    │   │           │   │   ├── check_dir_mtime.cc
+    │   │           │   │   ├── check_dir_mtime.h
+    │   │           │   │   ├── check.h
+    │   │           │   │   ├── dir.cc
+    │   │           │   │   ├── dir.h
+    │   │           │   │   ├── git.cc
+    │   │           │   │   ├── git.h
+    │   │           │   │   ├── gitstatus.cc
+    │   │           │   │   ├── index.cc
+    │   │           │   │   ├── index.h
+    │   │           │   │   ├── logging.cc
+    │   │           │   │   ├── logging.h
+    │   │           │   │   ├── options.cc
+    │   │           │   │   ├── options.h
+    │   │           │   │   ├── print.h
+    │   │           │   │   ├── repo_cache.cc
+    │   │           │   │   ├── repo_cache.h
+    │   │           │   │   ├── repo.cc
+    │   │           │   │   ├── repo.h
+    │   │           │   │   ├── request.cc
+    │   │           │   │   ├── request.h
+    │   │           │   │   ├── response.cc
+    │   │           │   │   ├── response.h
+    │   │           │   │   ├── scope_guard.h
+    │   │           │   │   ├── serialization.h
+    │   │           │   │   ├── stat.h
+    │   │           │   │   ├── string_cmp.h
+    │   │           │   │   ├── strings.cc
+    │   │           │   │   ├── strings.h
+    │   │           │   │   ├── string_view.h
+    │   │           │   │   ├── tag_db.cc
+    │   │           │   │   ├── tag_db.h
+    │   │           │   │   ├── thread_pool.cc
+    │   │           │   │   ├── thread_pool.h
+    │   │           │   │   ├── time.h
+    │   │           │   │   ├── timer.cc
+    │   │           │   │   ├── timer.h
+    │   │           │   │   └── tribool.h
+    │   │           │   ├── usrbin
+    │   │           │   │   └── .gitkeep
+    │   │           │   └── .vscode
+    │   │           │       ├── c_cpp_properties.json
+    │   │           │       └── settings.json
+    │   │           ├── internal
+    │   │           │   ├── configure.zsh
+    │   │           │   ├── configure.zsh.zwc
+    │   │           │   ├── icons.zsh
+    │   │           │   ├── icons.zsh.zwc
+    │   │           │   ├── notes.md
+    │   │           │   ├── p10k.zsh
+    │   │           │   ├── p10k.zsh.zwc
+    │   │           │   ├── parser.zsh
+    │   │           │   ├── parser.zsh.zwc
+    │   │           │   ├── wizard.zsh
+    │   │           │   ├── worker.zsh
+    │   │           │   └── worker.zsh.zwc
+    │   │           ├── LICENSE
+    │   │           ├── Makefile
+    │   │           ├── powerlevel10k.png
+    │   │           ├── powerlevel10k.zsh-theme
+    │   │           ├── powerlevel10k.zsh-theme.zwc
+    │   │           ├── powerlevel9k.zsh-theme
+    │   │           ├── powerlevel9k.zsh-theme.zwc
+    │   │           ├── prompt_powerlevel10k_setup
+    │   │           ├── prompt_powerlevel9k_setup
+    │   │           └── README.md
+    │   ├── .devcontainer
+    │   │   └── devcontainer.json
+    │   ├── .editorconfig
+    │   ├── .git
+    │   │   ├── config
+    │   │   ├── description
+    │   │   ├── FETCH_HEAD
+    │   │   ├── HEAD
+    │   │   ├── hooks
+    │   │   │   ├── applypatch-msg.sample
+    │   │   │   ├── commit-msg.sample
+    │   │   │   ├── fsmonitor-watchman.sample
+    │   │   │   ├── post-update.sample
+    │   │   │   ├── pre-applypatch.sample
+    │   │   │   ├── pre-commit.sample
+    │   │   │   ├── pre-merge-commit.sample
+    │   │   │   ├── prepare-commit-msg.sample
+    │   │   │   ├── pre-push.sample
+    │   │   │   ├── pre-rebase.sample
+    │   │   │   ├── pre-receive.sample
+    │   │   │   ├── push-to-checkout.sample
+    │   │   │   ├── sendemail-validate.sample
+    │   │   │   └── update.sample
+    │   │   ├── index
+    │   │   ├── info
+    │   │   │   └── exclude
+    │   │   ├── logs
+    │   │   │   ├── HEAD
+    │   │   │   └── refs
+    │   │   │       ├── heads
+    │   │   │       │   └── master
+    │   │   │       └── remotes
+    │   │   │           └── origin
+    │   │   │               ├── dependabot
+    │   │   │               │   └── pip
+    │   │   │               │       └── dot-github
+    │   │   │               │           └── workflows
+    │   │   │               │               └── dependencies
+    │   │   │               │                   └── certifi-2025.6.15
+    │   │   │               ├── HEAD
+    │   │   │               └── master
+    │   │   ├── objects
+    │   │   │   ├── info
+    │   │   │   └── pack
+    │   │   │       ├── pack-ddf5db25e0560ced8d908b031e7f56370f40502a.idx
+    │   │   │       ├── pack-ddf5db25e0560ced8d908b031e7f56370f40502a.pack
+    │   │   │       └── pack-ddf5db25e0560ced8d908b031e7f56370f40502a.rev
+    │   │   ├── refs
+    │   │   │   ├── heads
+    │   │   │   │   └── master
+    │   │   │   ├── remotes
+    │   │   │   │   └── origin
+    │   │   │   │       ├── dependabot
+    │   │   │   │       │   └── pip
+    │   │   │   │       │       └── dot-github
+    │   │   │   │       │           └── workflows
+    │   │   │   │       │               └── dependencies
+    │   │   │   │       │                   └── certifi-2025.6.15
+    │   │   │   │       ├── HEAD
+    │   │   │   │       └── master
+    │   │   │   └── tags
+    │   │   └── shallow
+    │   ├── .github
+    │   │   ├── CODEOWNERS
+    │   │   ├── dependabot.yml
+    │   │   ├── dependencies.yml
+    │   │   ├── FUNDING.yml
+    │   │   ├── ISSUE_TEMPLATE
+    │   │   │   ├── bug_report_omz.yml
+    │   │   │   ├── bug_report.yml
+    │   │   │   ├── config.yml
+    │   │   │   └── feature_request.yml
+    │   │   ├── PULL_REQUEST_TEMPLATE.md
+    │   │   └── workflows
+    │   │       ├── dependencies
+    │   │       │   ├── .gitignore
+    │   │       │   ├── requirements.txt
+    │   │       │   └── updater.py
+    │   │       ├── dependencies.yml
+    │   │       ├── installer
+    │   │       │   ├── .gitignore
+    │   │       │   ├── .vercelignore
+    │   │       │   └── vercel.json
+    │   │       ├── installer.yml
+    │   │       ├── main.yml
+    │   │       └── project.yml
+    │   ├── .gitignore
+    │   ├── .gitpod.Dockerfile
+    │   ├── .gitpod.yml
+    │   ├── lib
+    │   │   ├── async_prompt.zsh
+    │   │   ├── bzr.zsh
+    │   │   ├── clipboard.zsh
+    │   │   ├── cli.zsh
+    │   │   ├── compfix.zsh
+    │   │   ├── completion.zsh
+    │   │   ├── correction.zsh
+    │   │   ├── diagnostics.zsh
+    │   │   ├── directories.zsh
+    │   │   ├── functions.zsh
+    │   │   ├── git.zsh
+    │   │   ├── grep.zsh
+    │   │   ├── history.zsh
+    │   │   ├── key-bindings.zsh
+    │   │   ├── misc.zsh
+    │   │   ├── nvm.zsh
+    │   │   ├── prompt_info_functions.zsh
+    │   │   ├── spectrum.zsh
+    │   │   ├── termsupport.zsh
+    │   │   ├── tests
+    │   │   │   └── cli.test.zsh
+    │   │   ├── theme-and-appearance.zsh
+    │   │   └── vcs_info.zsh
+    │   ├── LICENSE.txt
+    │   ├── log
+    │   │   └── .gitkeep
+    │   ├── oh-my-zsh.sh
+    │   ├── plugins
+    │   │   ├── 1password
+    │   │   │   ├── 1password.plugin.zsh
+    │   │   │   ├── _opswd
+    │   │   │   ├── opswd
+    │   │   │   └── README.md
+    │   │   ├── aliases
+    │   │   │   ├── aliases.plugin.zsh
+    │   │   │   ├── cheatsheet.py
+    │   │   │   ├── .gitignore
+    │   │   │   ├── README.md
+    │   │   │   └── termcolor.py
+    │   │   ├── alias-finder
+    │   │   │   ├── alias-finder.plugin.zsh
+    │   │   │   ├── README.md
+    │   │   │   ├── tests
+    │   │   │   │   ├── _output
+    │   │   │   │   │   └── .gitkeep
+    │   │   │   │   ├── _support
+    │   │   │   │   │   ├── bootstrap
+    │   │   │   │   │   └── .gitkeep
+    │   │   │   │   └── test_run.sh
+    │   │   │   └── .zunit.yml
+    │   │   ├── ansible
+    │   │   │   ├── ansible.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── ant
+    │   │   │   ├── _ant
+    │   │   │   ├── ant.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── apache2-macports
+    │   │   │   ├── apache2-macports.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── arcanist
+    │   │   │   ├── arcanist.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── archlinux
+    │   │   │   ├── archlinux.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── arduino-cli
+    │   │   │   ├── arduino-cli.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── argocd
+    │   │   │   ├── argocd.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── asdf
+    │   │   │   ├── asdf.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── autoenv
+    │   │   │   ├── autoenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── autojump
+    │   │   │   ├── autojump.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── autopep8
+    │   │   │   ├── _autopep8
+    │   │   │   └── README.md
+    │   │   ├── aws
+    │   │   │   ├── aws.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── azure
+    │   │   │   ├── azure.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── battery
+    │   │   │   ├── battery.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bazel
+    │   │   │   ├── _bazel
+    │   │   │   ├── bazel.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bbedit
+    │   │   │   ├── bbedit.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bedtools
+    │   │   │   ├── _bedtools
+    │   │   │   └── README.md
+    │   │   ├── bgnotify
+    │   │   │   ├── bgnotify.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bower
+    │   │   │   ├── _bower
+    │   │   │   ├── bower.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── branch
+    │   │   │   ├── branch.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── brew
+    │   │   │   ├── brew.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bridgetown
+    │   │   │   ├── bridgetown.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── buf
+    │   │   │   ├── buf.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bun
+    │   │   │   ├── bun.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── bundler
+    │   │   │   ├── _bundler
+    │   │   │   ├── bundler.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cabal
+    │   │   │   ├── cabal.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cake
+    │   │   │   ├── cake.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cakephp3
+    │   │   │   ├── cakephp3.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── capistrano
+    │   │   │   ├── _capistrano
+    │   │   │   ├── capistrano.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cask
+    │   │   │   ├── cask.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── catimg
+    │   │   │   ├── catimg.plugin.zsh
+    │   │   │   ├── catimg.sh
+    │   │   │   ├── colors.png
+    │   │   │   └── README.md
+    │   │   ├── celery
+    │   │   │   ├── _celery
+    │   │   │   └── README.md
+    │   │   ├── charm
+    │   │   │   ├── charm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── chezmoi
+    │   │   │   ├── chezmoi.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── chruby
+    │   │   │   ├── chruby.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── chucknorris
+    │   │   │   ├── chucknorris.plugin.zsh
+    │   │   │   ├── fortunes
+    │   │   │   │   └── chucknorris
+    │   │   │   ├── .gitignore
+    │   │   │   └── README.md
+    │   │   ├── cloudfoundry
+    │   │   │   ├── cloudfoundry.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── codeclimate
+    │   │   │   ├── _codeclimate
+    │   │   │   └── README.md
+    │   │   ├── coffee
+    │   │   │   ├── _coffee
+    │   │   │   ├── coffee.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── colemak
+    │   │   │   ├── colemak-less
+    │   │   │   ├── colemak.plugin.zsh
+    │   │   │   ├── .gitignore
+    │   │   │   └── README.md
+    │   │   ├── colored-man-pages
+    │   │   │   ├── colored-man-pages.plugin.zsh
+    │   │   │   ├── nroff
+    │   │   │   └── README.md
+    │   │   ├── colorize
+    │   │   │   ├── colorize.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── command-not-found
+    │   │   │   ├── command-not-found.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── common-aliases
+    │   │   │   ├── common-aliases.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── compleat
+    │   │   │   ├── compleat.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── composer
+    │   │   │   ├── composer.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── conda
+    │   │   │   ├── conda.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── conda-env
+    │   │   │   ├── conda-env.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── copybuffer
+    │   │   │   ├── copybuffer.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── copyfile
+    │   │   │   ├── copyfile.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── copypath
+    │   │   │   ├── copypath.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cp
+    │   │   │   ├── cp.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── cpanm
+    │   │   │   ├── _cpanm
+    │   │   │   └── README.md
+    │   │   ├── dash
+    │   │   │   ├── dash.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dbt
+    │   │   │   ├── dbt.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── debian
+    │   │   │   ├── debian.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── deno
+    │   │   │   ├── deno.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dircycle
+    │   │   │   ├── dircycle.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── direnv
+    │   │   │   ├── direnv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dirhistory
+    │   │   │   ├── dirhistory.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dirpersist
+    │   │   │   ├── dirpersist.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dnf
+    │   │   │   ├── _dnf5
+    │   │   │   ├── dnf.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dnote
+    │   │   │   ├── _dnote
+    │   │   │   └── README.md
+    │   │   ├── docker
+    │   │   │   ├── completions
+    │   │   │   │   └── _docker
+    │   │   │   ├── docker.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── docker-compose
+    │   │   │   ├── _docker-compose
+    │   │   │   ├── docker-compose.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── doctl
+    │   │   │   ├── doctl.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dotenv
+    │   │   │   ├── dotenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── dotnet
+    │   │   │   ├── dotnet.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── droplr
+    │   │   │   ├── droplr.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── drush
+    │   │   │   ├── drush.complete.sh
+    │   │   │   ├── drush.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── eecms
+    │   │   │   ├── eecms.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── emacs
+    │   │   │   ├── emacsclient.sh
+    │   │   │   ├── emacs.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── ember-cli
+    │   │   │   ├── _ember-cli
+    │   │   │   ├── ember-cli.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── emoji
+    │   │   │   ├── emoji-char-definitions.zsh
+    │   │   │   ├── emoji-data.txt
+    │   │   │   ├── emoji.plugin.zsh
+    │   │   │   ├── gemoji_db.json
+    │   │   │   ├── README.md
+    │   │   │   └── update_emoji.py
+    │   │   ├── emoji-clock
+    │   │   │   ├── emoji-clock.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── emotty
+    │   │   │   ├── emotty_emoji_set.zsh
+    │   │   │   ├── emotty_floral_set.zsh
+    │   │   │   ├── emotty_love_set.zsh
+    │   │   │   ├── emotty_nature_set.zsh
+    │   │   │   ├── emotty.plugin.zsh
+    │   │   │   ├── emotty_stellar_set.zsh
+    │   │   │   ├── emotty_zodiac_set.zsh
+    │   │   │   └── README.md
+    │   │   ├── encode64
+    │   │   │   ├── encode64.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── extract
+    │   │   │   ├── _extract
+    │   │   │   ├── extract.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── eza
+    │   │   │   ├── eza.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fabric
+    │   │   │   ├── _fab
+    │   │   │   ├── fabric.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fancy-ctrl-z
+    │   │   │   ├── fancy-ctrl-z.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fasd
+    │   │   │   ├── fasd.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fastfile
+    │   │   │   ├── fastfile.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fbterm
+    │   │   │   ├── fbterm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fig
+    │   │   │   ├── fig.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── firewalld
+    │   │   │   ├── firewalld.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── flutter
+    │   │   │   ├── flutter.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fluxcd
+    │   │   │   ├── fluxcd.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fnm
+    │   │   │   ├── fnm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── foot
+    │   │   │   ├── foot.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── forklift
+    │   │   │   ├── forklift.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fossil
+    │   │   │   ├── _fossil
+    │   │   │   ├── fossil.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── frontend-search
+    │   │   │   ├── _frontend
+    │   │   │   ├── frontend-search.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── fzf
+    │   │   │   ├── fzf.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gas
+    │   │   │   ├── _gas
+    │   │   │   └── README.md
+    │   │   ├── gatsby
+    │   │   │   ├── _gatsby
+    │   │   │   └── README.md
+    │   │   ├── gcloud
+    │   │   │   ├── gcloud.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── geeknote
+    │   │   │   ├── _geeknote
+    │   │   │   ├── geeknote.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gem
+    │   │   │   ├── completions
+    │   │   │   │   └── _gem
+    │   │   │   ├── gem.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── genpass
+    │   │   │   ├── genpass-apple
+    │   │   │   ├── genpass-monkey
+    │   │   │   ├── genpass.plugin.zsh
+    │   │   │   ├── genpass-xkcd
+    │   │   │   └── README.md
+    │   │   ├── gh
+    │   │   │   ├── gh.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git
+    │   │   │   ├── git.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-auto-fetch
+    │   │   │   ├── git-auto-fetch.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-commit
+    │   │   │   ├── git-commit.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-escape-magic
+    │   │   │   ├── git-escape-magic
+    │   │   │   ├── git-escape-magic.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-extras
+    │   │   │   ├── git-extras.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gitfast
+    │   │   │   ├── _git
+    │   │   │   ├── git-completion.bash
+    │   │   │   ├── gitfast.plugin.zsh
+    │   │   │   ├── git-prompt.sh
+    │   │   │   ├── MANUAL.adoc
+    │   │   │   └── README.md
+    │   │   ├── git-flow
+    │   │   │   ├── _git-flow
+    │   │   │   ├── git-flow.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-flow-avh
+    │   │   │   ├── git-flow-avh.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── github
+    │   │   │   ├── github.plugin.zsh
+    │   │   │   ├── _hub
+    │   │   │   └── README.md
+    │   │   ├── git-hubflow
+    │   │   │   ├── git-hubflow.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gitignore
+    │   │   │   ├── gitignore.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-lfs
+    │   │   │   ├── git-lfs.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── git-prompt
+    │   │   │   ├── git-prompt.plugin.zsh
+    │   │   │   ├── gitstatus.py
+    │   │   │   └── README.md
+    │   │   ├── glassfish
+    │   │   │   ├── _asadmin
+    │   │   │   ├── glassfish.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── globalias
+    │   │   │   ├── globalias.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gnu-utils
+    │   │   │   ├── gnu-utils.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── golang
+    │   │   │   ├── _golang
+    │   │   │   ├── golang.plugin.zsh
+    │   │   │   ├── README.md
+    │   │   │   └── templates
+    │   │   │       ├── package.txt
+    │   │   │       └── search.txt
+    │   │   ├── gpg-agent
+    │   │   │   ├── gpg-agent.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gradle
+    │   │   │   ├── _gradle
+    │   │   │   ├── gradle.plugin.zsh
+    │   │   │   ├── LICENSE
+    │   │   │   └── README.md
+    │   │   ├── grails
+    │   │   │   ├── grails.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── grc
+    │   │   │   ├── grc.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── grunt
+    │   │   │   ├── grunt.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── gulp
+    │   │   │   ├── gulp.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── hanami
+    │   │   │   ├── hanami.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── hasura
+    │   │   │   ├── hasura.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── helm
+    │   │   │   ├── helm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── heroku
+    │   │   │   ├── heroku.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── heroku-alias
+    │   │   │   ├── heroku-alias.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── history
+    │   │   │   ├── history.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── history-substring-search
+    │   │   │   ├── dependencies
+    │   │   │   │   └── OMZ-README.md
+    │   │   │   ├── history-substring-search.plugin.zsh
+    │   │   │   ├── history-substring-search.zsh
+    │   │   │   └── README.md
+    │   │   ├── hitchhiker
+    │   │   │   ├── fortunes
+    │   │   │   │   └── hitchhiker
+    │   │   │   ├── .gitignore
+    │   │   │   ├── hitchhiker.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── hitokoto
+    │   │   │   ├── hitokoto.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── homestead
+    │   │   │   ├── homestead.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── httpie
+    │   │   │   ├── _httpie
+    │   │   │   └── README.md
+    │   │   ├── invoke
+    │   │   │   ├── invoke.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── ionic
+    │   │   │   ├── ionic.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── ipfs
+    │   │   │   ├── _ipfs
+    │   │   │   ├── LICENSE
+    │   │   │   └── README.md
+    │   │   ├── isodate
+    │   │   │   ├── isodate.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── istioctl
+    │   │   │   ├── istioctl.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── iterm2
+    │   │   │   ├── iterm2.plugin.zsh
+    │   │   │   ├── iterm2_shell_integration.zsh
+    │   │   │   ├── README.md
+    │   │   │   └── update
+    │   │   ├── jake-node
+    │   │   │   ├── jake-node.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jenv
+    │   │   │   ├── jenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jfrog
+    │   │   │   ├── jfrog.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jhbuild
+    │   │   │   ├── jhbuild.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jira
+    │   │   │   ├── _jira
+    │   │   │   ├── jira.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jj
+    │   │   │   ├── jj.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jruby
+    │   │   │   ├── jruby.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jsontools
+    │   │   │   ├── jsontools.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── juju
+    │   │   │   ├── juju.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── jump
+    │   │   │   ├── jump.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── k9s
+    │   │   │   ├── k9s.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kamal
+    │   │   │   ├── _kamal
+    │   │   │   ├── kamal.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kate
+    │   │   │   ├── kate.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── keychain
+    │   │   │   ├── keychain.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kind
+    │   │   │   ├── kind.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kitchen
+    │   │   │   ├── _kitchen
+    │   │   │   └── README.md
+    │   │   ├── kitty
+    │   │   │   ├── kitty.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kn
+    │   │   │   ├── kn.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── knife
+    │   │   │   ├── _knife
+    │   │   │   └── README.md
+    │   │   ├── knife_ssh
+    │   │   │   ├── knife_ssh.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kops
+    │   │   │   ├── kops.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kubectl
+    │   │   │   ├── kubectl.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── kubectx
+    │   │   │   ├── kubectx.plugin.zsh
+    │   │   │   ├── prod.png
+    │   │   │   ├── README.md
+    │   │   │   └── stage.png
+    │   │   ├── kube-ps1
+    │   │   │   ├── kube-ps1.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── lando
+    │   │   │   ├── lando.plugin.zsh
+    │   │   │   ├── LICENSE
+    │   │   │   └── README.md
+    │   │   ├── laravel
+    │   │   │   ├── _artisan
+    │   │   │   ├── laravel.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── laravel4
+    │   │   │   ├── laravel4.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── laravel5
+    │   │   │   ├── laravel5.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── last-working-dir
+    │   │   │   ├── last-working-dir.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── lein
+    │   │   │   ├── _lein
+    │   │   │   └── README.md
+    │   │   ├── lighthouse
+    │   │   │   ├── lighthouse.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── localstack
+    │   │   │   ├── localstack.plugin.zsh
+    │   │   │   ├── README.md
+    │   │   │   └── sqs-send-result.png
+    │   │   ├── lol
+    │   │   │   ├── lol.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── lpass
+    │   │   │   ├── _lpass
+    │   │   │   └── README.md
+    │   │   ├── lxd
+    │   │   │   ├── lxd.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── macos
+    │   │   │   ├── macos.plugin.zsh
+    │   │   │   ├── music
+    │   │   │   ├── README.md
+    │   │   │   ├── _security
+    │   │   │   └── spotify
+    │   │   ├── macports
+    │   │   │   ├── macports.plugin.zsh
+    │   │   │   ├── _port
+    │   │   │   └── README.md
+    │   │   ├── magic-enter
+    │   │   │   ├── magic-enter.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── man
+    │   │   │   ├── man.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── marked2
+    │   │   │   ├── marked2.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── marktext
+    │   │   │   ├── marktext.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mercurial
+    │   │   │   ├── mercurial.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── meteor
+    │   │   │   ├── _meteor
+    │   │   │   ├── meteor.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── microk8s
+    │   │   │   ├── microk8s.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── minikube
+    │   │   │   ├── minikube.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mise
+    │   │   │   ├── mise.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mix
+    │   │   │   ├── _mix
+    │   │   │   └── README.md
+    │   │   ├── mix-fast
+    │   │   │   ├── mix-fast.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mongo-atlas
+    │   │   │   ├── mongo-atlas.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mongocli
+    │   │   │   ├── mongocli.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mosh
+    │   │   │   ├── mosh.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── multipass
+    │   │   │   ├── _multipass
+    │   │   │   ├── multipass.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mvn
+    │   │   │   ├── mvn.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── mysql-macports
+    │   │   │   ├── mysql-macports.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── n98-magerun
+    │   │   │   ├── n98-magerun.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nanoc
+    │   │   │   ├── _nanoc
+    │   │   │   ├── nanoc.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nats
+    │   │   │   ├── nats.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── ng
+    │   │   │   ├── _ng
+    │   │   │   └── README.md
+    │   │   ├── ngrok
+    │   │   │   ├── ngrok.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nmap
+    │   │   │   ├── nmap.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── node
+    │   │   │   ├── node.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nodenv
+    │   │   │   ├── nodenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nomad
+    │   │   │   ├── _nomad
+    │   │   │   └── README.md
+    │   │   ├── npm
+    │   │   │   ├── npm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── nvm
+    │   │   │   ├── nvm.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── oc
+    │   │   │   ├── oc.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── octozen
+    │   │   │   ├── octozen.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── opentofu
+    │   │   │   ├── opentofu.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── operator-sdk
+    │   │   │   ├── operator-sdk.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── otp
+    │   │   │   ├── otp.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pass
+    │   │   │   ├── _pass
+    │   │   │   └── README.md
+    │   │   ├── paver
+    │   │   │   ├── paver.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pep8
+    │   │   │   ├── _pep8
+    │   │   │   └── README.md
+    │   │   ├── percol
+    │   │   │   ├── percol.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── per-directory-history
+    │   │   │   ├── per-directory-history.plugin.zsh -> per-directory-history.zsh
+    │   │   │   ├── per-directory-history.zsh
+    │   │   │   └── README.md
+    │   │   ├── perl
+    │   │   │   ├── perl.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── perms
+    │   │   │   ├── perms.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── phing
+    │   │   │   ├── phing.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pip
+    │   │   │   ├── _pip
+    │   │   │   ├── pip.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pipenv
+    │   │   │   ├── pipenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pj
+    │   │   │   ├── pj.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── please
+    │   │   │   ├── please.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pm2
+    │   │   │   ├── _pm2
+    │   │   │   ├── pm2.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pod
+    │   │   │   ├── _pod
+    │   │   │   └── README.md
+    │   │   ├── podman
+    │   │   │   ├── podman.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── poetry
+    │   │   │   ├── poetry.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── poetry-env
+    │   │   │   ├── poetry-env.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── postgres
+    │   │   │   ├── postgres.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pow
+    │   │   │   ├── pow.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── powder
+    │   │   │   ├── _powder
+    │   │   │   └── README.md
+    │   │   ├── powify
+    │   │   │   ├── _powify
+    │   │   │   └── README.md
+    │   │   ├── pre-commit
+    │   │   │   ├── pre-commit.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── procs
+    │   │   │   ├── procs.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── profiles
+    │   │   │   ├── profiles.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pyenv
+    │   │   │   ├── pyenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── pylint
+    │   │   │   ├── _pylint
+    │   │   │   ├── pylint.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── python
+    │   │   │   ├── python.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── qodana
+    │   │   │   ├── qodana.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── qrcode
+    │   │   │   ├── qrcode.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rails
+    │   │   │   ├── _rails
+    │   │   │   ├── rails.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rake
+    │   │   │   ├── rake.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rake-fast
+    │   │   │   ├── rake-fast.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rand-quote
+    │   │   │   ├── rand-quote.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rbenv
+    │   │   │   ├── rbenv.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rbfu
+    │   │   │   ├── rbfu.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rbw
+    │   │   │   ├── rbw.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rclone
+    │   │   │   ├── rclone.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── react-native
+    │   │   │   ├── _react-native
+    │   │   │   ├── react-native.plugin.zsh
+    │   │   │   └── README.md
+    │   │   ├── rebar
+    │   │   │   ├── README.md
+    │   │   │   └── _rebar
+    │   │   ├── redis-cli
+    │   │   │   ├── README.md
+    │   │   │   └── _redis-cli
+    │   │   ├── repo
+    │   │   │   ├── README.md
+    │   │   │   ├── _repo
+    │   │   │   └── repo.plugin.zsh
+    │   │   ├── ros
+    │   │   │   ├── README.md
+    │   │   │   └── _ros
+    │   │   ├── rsync
+    │   │   │   ├── README.md
+    │   │   │   └── rsync.plugin.zsh
+    │   │   ├── ruby
+    │   │   │   ├── README.md
+    │   │   │   └── ruby.plugin.zsh
+    │   │   ├── rust
+    │   │   │   ├── README.md
+    │   │   │   ├── _rustc
+    │   │   │   └── rust.plugin.zsh
+    │   │   ├── rvm
+    │   │   │   ├── README.md
+    │   │   │   └── rvm.plugin.zsh
+    │   │   ├── safe-paste
+    │   │   │   ├── README.md
+    │   │   │   └── safe-paste.plugin.zsh
+    │   │   ├── salt
+    │   │   │   ├── README.md
+    │   │   │   └── _salt
+    │   │   ├── samtools
+    │   │   │   ├── README.md
+    │   │   │   └── _samtools
+    │   │   ├── sbt
+    │   │   │   ├── README.md
+    │   │   │   ├── _sbt
+    │   │   │   └── sbt.plugin.zsh
+    │   │   ├── scala
+    │   │   │   ├── README.md
+    │   │   │   └── _scala
+    │   │   ├── scd
+    │   │   │   ├── README.md
+    │   │   │   ├── _scd
+    │   │   │   ├── scd
+    │   │   │   └── scd.plugin.zsh
+    │   │   ├── screen
+    │   │   │   ├── README.md
+    │   │   │   └── screen.plugin.zsh
+    │   │   ├── scw
+    │   │   │   ├── README.md
+    │   │   │   └── scw.plugin.zsh
+    │   │   ├── sdk
+    │   │   │   ├── README.md
+    │   │   │   └── sdk.plugin.zsh
+    │   │   ├── sfdx
+    │   │   │   ├── README.md
+    │   │   │   └── _sfdx
+    │   │   ├── sfffe
+    │   │   │   ├── README.md
+    │   │   │   └── sfffe.plugin.zsh
+    │   │   ├── shell-proxy
+    │   │   │   ├── .editorconfig
+    │   │   │   ├── proxy.py
+    │   │   │   ├── README.md
+    │   │   │   ├── shell-proxy.plugin.zsh
+    │   │   │   ├── ssh-agent.py
+    │   │   │   └── ssh-proxy.py
+    │   │   ├── shrink-path
+    │   │   │   ├── README.md
+    │   │   │   └── shrink-path.plugin.zsh
+    │   │   ├── sigstore
+    │   │   │   ├── README.md
+    │   │   │   └── sigstore.plugin.zsh
+    │   │   ├── singlechar
+    │   │   │   ├── README.md
+    │   │   │   └── singlechar.plugin.zsh
+    │   │   ├── skaffold
+    │   │   │   ├── README.md
+    │   │   │   └── skaffold.plugin.zsh
+    │   │   ├── snap
+    │   │   │   ├── README.md
+    │   │   │   └── snap.plugin.zsh
+    │   │   ├── spring
+    │   │   │   ├── README.md
+    │   │   │   └── _spring
+    │   │   ├── sprunge
+    │   │   │   ├── README.md
+    │   │   │   └── sprunge.plugin.zsh
+    │   │   ├── ssh
+    │   │   │   ├── README.md
+    │   │   │   └── ssh.plugin.zsh
+    │   │   ├── ssh-agent
+    │   │   │   ├── README.md
+    │   │   │   └── ssh-agent.plugin.zsh
+    │   │   ├── stack
+    │   │   │   ├── README.md
+    │   │   │   └── stack.plugin.zsh
+    │   │   ├── starship
+    │   │   │   ├── README.md
+    │   │   │   └── starship.plugin.zsh
+    │   │   ├── stripe
+    │   │   │   ├── README.md
+    │   │   │   └── stripe.plugin.zsh
+    │   │   ├── sublime
+    │   │   │   ├── README.md
+    │   │   │   └── sublime.plugin.zsh
+    │   │   ├── sublime-merge
+    │   │   │   ├── README.md
+    │   │   │   └── sublime-merge.plugin.zsh
+    │   │   ├── sudo
+    │   │   │   ├── README.md
+    │   │   │   └── sudo.plugin.zsh
+    │   │   ├── supervisor
+    │   │   │   ├── README.md
+    │   │   │   ├── _supervisorctl
+    │   │   │   ├── _supervisord
+    │   │   │   └── supervisor.plugin.zsh
+    │   │   ├── suse
+    │   │   │   ├── README.md
+    │   │   │   └── suse.plugin.zsh
+    │   │   ├── svcat
+    │   │   │   ├── README.md
+    │   │   │   └── svcat.plugin.zsh
+    │   │   ├── svn
+    │   │   │   ├── README.md
+    │   │   │   └── svn.plugin.zsh
+    │   │   ├── svn-fast-info
+    │   │   │   ├── README.md
+    │   │   │   └── svn-fast-info.plugin.zsh
+    │   │   ├── swiftpm
+    │   │   │   ├── README.md
+    │   │   │   ├── _swift
+    │   │   │   └── swiftpm.plugin.zsh
+    │   │   ├── symfony
+    │   │   │   ├── README.md
+    │   │   │   └── symfony.plugin.zsh
+    │   │   ├── symfony2
+    │   │   │   ├── README.md
+    │   │   │   └── symfony2.plugin.zsh
+    │   │   ├── symfony6
+    │   │   │   ├── README.md
+    │   │   │   └── symfony6.plugin.zsh
+    │   │   ├── systemadmin
+    │   │   │   ├── README.md
+    │   │   │   └── systemadmin.plugin.zsh
+    │   │   ├── systemd
+    │   │   │   ├── README.md
+    │   │   │   └── systemd.plugin.zsh
+    │   │   ├── tailscale
+    │   │   │   ├── README.md
+    │   │   │   └── tailscale.plugin.zsh
+    │   │   ├── taskwarrior
+    │   │   │   ├── README.md
+    │   │   │   ├── _task
+    │   │   │   └── taskwarrior.plugin.zsh
+    │   │   ├── terminitor
+    │   │   │   ├── README.md
+    │   │   │   └── _terminitor
+    │   │   ├── term_tab
+    │   │   │   ├── README.md
+    │   │   │   └── term_tab.plugin.zsh
+    │   │   ├── terraform
+    │   │   │   ├── README.md
+    │   │   │   ├── _terraform
+    │   │   │   └── terraform.plugin.zsh
+    │   │   ├── textastic
+    │   │   │   ├── README.md
+    │   │   │   └── textastic.plugin.zsh
+    │   │   ├── textmate
+    │   │   │   ├── README.md
+    │   │   │   └── textmate.plugin.zsh
+    │   │   ├── thefuck
+    │   │   │   ├── README.md
+    │   │   │   └── thefuck.plugin.zsh
+    │   │   ├── themes
+    │   │   │   ├── README.md
+    │   │   │   └── themes.plugin.zsh
+    │   │   ├── thor
+    │   │   │   ├── README.md
+    │   │   │   └── _thor
+    │   │   ├── tig
+    │   │   │   ├── README.md
+    │   │   │   └── tig.plugin.zsh
+    │   │   ├── timer
+    │   │   │   ├── README.md
+    │   │   │   └── timer.plugin.zsh
+    │   │   ├── timoni
+    │   │   │   ├── README.md
+    │   │   │   └── timoni.plugin.zsh
+    │   │   ├── tldr
+    │   │   │   ├── README.md
+    │   │   │   └── tldr.plugin.zsh
+    │   │   ├── tmux
+    │   │   │   ├── README.md
+    │   │   │   ├── tmux.extra.conf
+    │   │   │   ├── tmux.only.conf
+    │   │   │   └── tmux.plugin.zsh
+    │   │   ├── tmux-cssh
+    │   │   │   ├── README.md
+    │   │   │   └── _tmux-cssh
+    │   │   ├── tmuxinator
+    │   │   │   ├── README.md
+    │   │   │   ├── _tmuxinator
+    │   │   │   └── tmuxinator.plugin.zsh
+    │   │   ├── toolbox
+    │   │   │   ├── README.md
+    │   │   │   └── toolbox.plugin.zsh
+    │   │   ├── torrent
+    │   │   │   ├── README.md
+    │   │   │   └── torrent.plugin.zsh
+    │   │   ├── transfer
+    │   │   │   ├── README.md
+    │   │   │   └── transfer.plugin.zsh
+    │   │   ├── tugboat
+    │   │   │   ├── README.md
+    │   │   │   └── _tugboat
+    │   │   ├── ubuntu
+    │   │   │   ├── README.md
+    │   │   │   └── ubuntu.plugin.zsh
+    │   │   ├── ufw
+    │   │   │   ├── README.md
+    │   │   │   └── _ufw
+    │   │   ├── universalarchive
+    │   │   │   ├── README.md
+    │   │   │   ├── _universalarchive
+    │   │   │   └── universalarchive.plugin.zsh
+    │   │   ├── urltools
+    │   │   │   ├── README.md
+    │   │   │   └── urltools.plugin.zsh
+    │   │   ├── uv
+    │   │   │   ├── README.md
+    │   │   │   └── uv.plugin.zsh
+    │   │   ├── vagrant
+    │   │   │   ├── README.md
+    │   │   │   ├── _vagrant
+    │   │   │   └── vagrant.plugin.zsh
+    │   │   ├── vagrant-prompt
+    │   │   │   ├── README.md
+    │   │   │   └── vagrant-prompt.plugin.zsh
+    │   │   ├── vault
+    │   │   │   ├── README.md
+    │   │   │   └── vault.plugin.zsh
+    │   │   ├── vim-interaction
+    │   │   │   ├── README.md
+    │   │   │   └── vim-interaction.plugin.zsh
+    │   │   ├── vi-mode
+    │   │   │   ├── README.md
+    │   │   │   └── vi-mode.plugin.zsh
+    │   │   ├── virtualenv
+    │   │   │   ├── README.md
+    │   │   │   └── virtualenv.plugin.zsh
+    │   │   ├── virtualenvwrapper
+    │   │   │   ├── README.md
+    │   │   │   └── virtualenvwrapper.plugin.zsh
+    │   │   ├── volta
+    │   │   │   ├── README.md
+    │   │   │   └── volta.plugin.zsh
+    │   │   ├── vscode
+    │   │   │   ├── README.md
+    │   │   │   └── vscode.plugin.zsh
+    │   │   ├── vundle
+    │   │   │   ├── README.md
+    │   │   │   └── vundle.plugin.zsh
+    │   │   ├── wakeonlan
+    │   │   │   ├── README.md
+    │   │   │   ├── _wake
+    │   │   │   └── wakeonlan.plugin.zsh
+    │   │   ├── watson
+    │   │   │   ├── README.md
+    │   │   │   └── _watson
+    │   │   ├── wd
+    │   │   │   ├── LICENSE
+    │   │   │   ├── README.md
+    │   │   │   ├── wd.plugin.zsh
+    │   │   │   ├── _wd.sh
+    │   │   │   └── wd.sh
+    │   │   ├── web-search
+    │   │   │   ├── README.md
+    │   │   │   └── web-search.plugin.zsh
+    │   │   ├── wp-cli
+    │   │   │   ├── README.md
+    │   │   │   └── wp-cli.plugin.zsh
+    │   │   ├── xcode
+    │   │   │   ├── README.md
+    │   │   │   ├── xcode.plugin.zsh
+    │   │   │   └── _xcselv
+    │   │   ├── yarn
+    │   │   │   ├── README.md
+    │   │   │   ├── _yarn
+    │   │   │   └── yarn.plugin.zsh
+    │   │   ├── yii
+    │   │   │   ├── README.md
+    │   │   │   └── yii.plugin.zsh
+    │   │   ├── yii2
+    │   │   │   ├── README.md
+    │   │   │   └── yii2.plugin.zsh
+    │   │   ├── yum
+    │   │   │   ├── README.md
+    │   │   │   └── yum.plugin.zsh
+    │   │   ├── z
+    │   │   │   ├── img
+    │   │   │   │   ├── demo.gif
+    │   │   │   │   ├── mit_license.svg
+    │   │   │   │   └── zsh_4.3.11_plus.svg
+    │   │   │   ├── LICENSE
+    │   │   │   ├── MANUAL.md
+    │   │   │   ├── README.md
+    │   │   │   ├── _z
+    │   │   │   └── z.plugin.zsh
+    │   │   ├── zbell
+    │   │   │   ├── README.md
+    │   │   │   └── zbell.plugin.zsh
+    │   │   ├── zeus
+    │   │   │   ├── README.md
+    │   │   │   ├── _zeus
+    │   │   │   └── zeus.plugin.zsh
+    │   │   ├── zoxide
+    │   │   │   ├── README.md
+    │   │   │   └── zoxide.plugin.zsh
+    │   │   ├── zsh-interactive-cd
+    │   │   │   ├── demo.gif
+    │   │   │   ├── LICENSE
+    │   │   │   ├── README.md
+    │   │   │   └── zsh-interactive-cd.plugin.zsh
+    │   │   └── zsh-navigation-tools
+    │   │       ├── .config
+    │   │       │   └── znt
+    │   │       │       ├── n-aliases.conf
+    │   │       │       ├── n-cd.conf
+    │   │       │       ├── n-env.conf
+    │   │       │       ├── n-functions.conf
+    │   │       │       ├── n-history.conf
+    │   │       │       ├── n-kill.conf
+    │   │       │       ├── n-list.conf
+    │   │       │       ├── n-options.conf
+    │   │       │       └── n-panelize.conf
+    │   │       ├── doc
+    │   │       │   ├── generate_single_file
+    │   │       │   ├── img
+    │   │       │   │   └── n-history2.png
+    │   │       │   ├── install.sh
+    │   │       │   ├── n-preview
+    │   │       │   └── znt-tmux.zsh
+    │   │       ├── LICENSE
+    │   │       ├── Makefile
+    │   │       ├── n-aliases
+    │   │       ├── n-cd
+    │   │       ├── n-env
+    │   │       ├── NEWS
+    │   │       ├── n-functions
+    │   │       ├── n-help
+    │   │       ├── n-history
+    │   │       ├── _n-kill
+    │   │       ├── n-kill
+    │   │       ├── n-list
+    │   │       ├── n-list-draw
+    │   │       ├── n-list-input
+    │   │       ├── n-options
+    │   │       ├── n-panelize
+    │   │       ├── README.md
+    │   │       ├── znt-cd-widget
+    │   │       ├── znt-history-widget
+    │   │       ├── znt-kill-widget
+    │   │       ├── znt-usetty-wrapper
+    │   │       └── zsh-navigation-tools.plugin.zsh
+    │   ├── .prettierrc
+    │   ├── README.md
+    │   ├── SECURITY.md
+    │   ├── templates
+    │   │   ├── minimal.zshrc
+    │   │   └── zshrc.zsh-template
+    │   ├── themes
+    │   │   ├── 3den.zsh-theme
+    │   │   ├── adben.zsh-theme
+    │   │   ├── af-magic.zsh-theme
+    │   │   ├── afowler.zsh-theme
+    │   │   ├── agnoster.zsh-theme
+    │   │   ├── alanpeabody.zsh-theme
+    │   │   ├── amuse.zsh-theme
+    │   │   ├── apple.zsh-theme
+    │   │   ├── arrow.zsh-theme
+    │   │   ├── aussiegeek.zsh-theme
+    │   │   ├── avit.zsh-theme
+    │   │   ├── awesomepanda.zsh-theme
+    │   │   ├── bira.zsh-theme
+    │   │   ├── blinks.zsh-theme
+    │   │   ├── bureau.zsh-theme
+    │   │   ├── candy-kingdom.zsh-theme
+    │   │   ├── candy.zsh-theme
+    │   │   ├── clean.zsh-theme
+    │   │   ├── cloud.zsh-theme
+    │   │   ├── crcandy.zsh-theme
+    │   │   ├── crunch.zsh-theme
+    │   │   ├── cypher.zsh-theme
+    │   │   ├── dallas.zsh-theme
+    │   │   ├── darkblood.zsh-theme
+    │   │   ├── daveverwer.zsh-theme
+    │   │   ├── dieter.zsh-theme
+    │   │   ├── dogenpunk.zsh-theme
+    │   │   ├── dpoggi.zsh-theme
+    │   │   ├── dstufft.zsh-theme
+    │   │   ├── dst.zsh-theme
+    │   │   ├── duellj.zsh-theme
+    │   │   ├── eastwood.zsh-theme
+    │   │   ├── edvardm.zsh-theme
+    │   │   ├── emotty.zsh-theme
+    │   │   ├── essembeh.zsh-theme
+    │   │   ├── evan.zsh-theme
+    │   │   ├── fino-time.zsh-theme
+    │   │   ├── fino.zsh-theme
+    │   │   ├── fishy.zsh-theme
+    │   │   ├── flazz.zsh-theme
+    │   │   ├── fletcherm.zsh-theme
+    │   │   ├── fox.zsh-theme
+    │   │   ├── frisk.zsh-theme
+    │   │   ├── frontcube.zsh-theme
+    │   │   ├── funky.zsh-theme
+    │   │   ├── fwalch.zsh-theme
+    │   │   ├── gallifrey.zsh-theme
+    │   │   ├── gallois.zsh-theme
+    │   │   ├── garyblessington.zsh-theme
+    │   │   ├── gentoo.zsh-theme
+    │   │   ├── geoffgarside.zsh-theme
+    │   │   ├── gianu.zsh-theme
+    │   │   ├── gnzh.zsh-theme
+    │   │   ├── gozilla.zsh-theme
+    │   │   ├── half-life.zsh-theme
+    │   │   ├── humza.zsh-theme
+    │   │   ├── imajes.zsh-theme
+    │   │   ├── intheloop.zsh-theme
+    │   │   ├── itchy.zsh-theme
+    │   │   ├── jaischeema.zsh-theme
+    │   │   ├── jbergantine.zsh-theme
+    │   │   ├── jispwoso.zsh-theme
+    │   │   ├── jnrowe.zsh-theme
+    │   │   ├── jonathan.zsh-theme
+    │   │   ├── josh.zsh-theme
+    │   │   ├── jreese.zsh-theme
+    │   │   ├── jtriley.zsh-theme
+    │   │   ├── juanghurtado.zsh-theme
+    │   │   ├── junkfood.zsh-theme
+    │   │   ├── kafeitu.zsh-theme
+    │   │   ├── kardan.zsh-theme
+    │   │   ├── kennethreitz.zsh-theme
+    │   │   ├── kiwi.zsh-theme
+    │   │   ├── kolo.zsh-theme
+    │   │   ├── kphoen.zsh-theme
+    │   │   ├── lambda.zsh-theme
+    │   │   ├── linuxonly.zsh-theme
+    │   │   ├── lukerandall.zsh-theme
+    │   │   ├── macovsky-ruby.zsh-theme -> macovsky.zsh-theme
+    │   │   ├── macovsky.zsh-theme
+    │   │   ├── maran.zsh-theme
+    │   │   ├── mgutz.zsh-theme
+    │   │   ├── mh.zsh-theme
+    │   │   ├── michelebologna.zsh-theme
+    │   │   ├── mikeh.zsh-theme
+    │   │   ├── miloshadzic.zsh-theme
+    │   │   ├── minimal.zsh-theme
+    │   │   ├── mira.zsh-theme
+    │   │   ├── mlh.zsh-theme
+    │   │   ├── mortalscumbag.zsh-theme
+    │   │   ├── mrtazz.zsh-theme
+    │   │   ├── murilasso.zsh-theme
+    │   │   ├── muse.zsh-theme
+    │   │   ├── nanotech.zsh-theme
+    │   │   ├── nebirhos.zsh-theme
+    │   │   ├── nicoulaj.zsh-theme
+    │   │   ├── norm.zsh-theme
+    │   │   ├── obraun.zsh-theme
+    │   │   ├── oldgallois.zsh-theme
+    │   │   ├── peepcode.zsh-theme
+    │   │   ├── philips.zsh-theme
+    │   │   ├── pmcgee.zsh-theme
+    │   │   ├── pygmalion-virtualenv.zsh-theme
+    │   │   ├── pygmalion.zsh-theme
+    │   │   ├── random.zsh-theme
+    │   │   ├── re5et.zsh-theme
+    │   │   ├── refined.zsh-theme
+    │   │   ├── rgm.zsh-theme
+    │   │   ├── risto.zsh-theme
+    │   │   ├── rixius.zsh-theme
+    │   │   ├── rkj-repos.zsh-theme
+    │   │   ├── rkj.zsh-theme
+    │   │   ├── robbyrussell.zsh-theme
+    │   │   ├── sammy.zsh-theme
+    │   │   ├── simonoff.zsh-theme
+    │   │   ├── simple.zsh-theme
+    │   │   ├── skaro.zsh-theme
+    │   │   ├── smt.zsh-theme
+    │   │   ├── Soliah.zsh-theme
+    │   │   ├── sonicradish.zsh-theme
+    │   │   ├── sorin.zsh-theme
+    │   │   ├── sporty_256.zsh-theme
+    │   │   ├── steeef.zsh-theme
+    │   │   ├── strug.zsh-theme
+    │   │   ├── sunaku.zsh-theme
+    │   │   ├── sunrise.zsh-theme
+    │   │   ├── superjarin.zsh-theme
+    │   │   ├── suvash.zsh-theme
+    │   │   ├── takashiyoshida.zsh-theme
+    │   │   ├── terminalparty.zsh-theme
+    │   │   ├── theunraveler.zsh-theme
+    │   │   ├── tjkirch_mod.zsh-theme
+    │   │   ├── tjkirch.zsh-theme
+    │   │   ├── tonotdo.zsh-theme
+    │   │   ├── trapd00r.zsh-theme
+    │   │   ├── wedisagree.zsh-theme
+    │   │   ├── wezm+.zsh-theme
+    │   │   ├── wezm.zsh-theme
+    │   │   ├── wuffers.zsh-theme
+    │   │   ├── xiong-chiamiov-plus.zsh-theme
+    │   │   ├── xiong-chiamiov.zsh-theme
+    │   │   ├── ys.zsh-theme
+    │   │   └── zhann.zsh-theme
+    │   └── tools
+    │       ├── changelog.sh
+    │       ├── check_for_upgrade.sh
+    │       ├── install.sh
+    │       ├── require_tool.sh
+    │       ├── theme_chooser.sh
+    │       ├── uninstall.sh
+    │       └── upgrade.sh
+    └── .zshrc
+
+478 directories, 1330 files
