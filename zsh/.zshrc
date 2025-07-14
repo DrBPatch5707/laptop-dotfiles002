@@ -10,7 +10,7 @@ fi
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH="/usr/share/oh-my-zsh"
 export JAVA_HOME="/usr/lib/jvm/java-24-openjdk"
 export PATH="$JAVA_HOME/bin:$PATH"
 
@@ -20,7 +20,10 @@ export PATH="$JAVA_HOME/bin:$PATH"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
+#ZSH_THEME="powerlevel10k/powerlevel10k"
+# Source the Powerlevel10k theme itself
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -82,12 +85,25 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git z)
+
+
 
 # Initialize zoxide
 eval "$(zoxide init zsh)"
 
 source $ZSH/oh-my-zsh.sh
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - --no-rehash)"
+eval "$(pyenv virtualenv-init -)"
+
+
+# zsh-autosuggestions
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
 
 # User configuration
 
@@ -115,12 +131,19 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 alias ls='eza --icons'
-alias emacs="~/bin/doomemacs.sh"
-alias idea="~/bin/idea.sh"
+alias idea="~/scripts/idea.sh"
 alias cat='bat --color=always'
 alias fzf='fzf --preview="bat --color=always {}"'
-alias nf='~/bin/nf.sh $@'
+alias nf='~/scripts/nf.sh $@'
+alias chrome='~/scripts/chrome.sh'
+
+
+
  
+# zsh-syntax-highlighting (must be sourced last among plugins for best behavior)
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -129,3 +152,4 @@ alias nf='~/bin/nf.sh $@'
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
